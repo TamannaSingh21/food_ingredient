@@ -1,0 +1,42 @@
+.search-bar ::-webkit-input-placeholder { /* Edge */
+    color: orange;
+}
+
+.search-bar i {
+    position: relative;
+    right: 3rem;
+    border-left: 1px solid;
+    padding: 0.5rem;
+    border-width: 100%;
+    color: white;
+    border-radius: 0 30% 30% 0;
+    background-color: orange;
+}
+
+#results {
+    margin-top: 4rem;
+}
+
+#search-results {
+    margin-top: 5rem;
+}
+
+.card {
+    border-radius: 20px;
+    /* width: 100%; */
+}
+
+.card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.modal-content {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+}
+
+.modal-content .yt-link a{
+    color: white;
+}
